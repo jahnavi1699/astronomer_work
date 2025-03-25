@@ -4,7 +4,8 @@ from datetime import datetime
 
 # Define your Python function that will be called by the PythonOperator
 def print_hello():
-    print("Hello from Airflow!")
+    print("hello from Airflow v2!")
+
 
 # Define the DAG
 dag = DAG(
